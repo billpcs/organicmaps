@@ -465,7 +465,7 @@
 	<string name="edit_opening_hours">Edit business hours</string>
 	<string name="no_osm_account">Don\'t have an OpenStreetMap account?</string>
 	<string name="register_at_openstreetmap">Register at OpenStreetMap</string>
-	<string name="login">OpenStreetMap Login</string>
+	<string name="login">Login</string>
 	<string name="login_osm">Login to OpenStreetMap</string>
 	<string name="password">Password</string>
 	<string name="forgot_password">Forgot your password?</string>
@@ -606,6 +606,8 @@
 	<string name="routing_add_finish_point">Add a destination to plan a route</string>
 	<string name="placepage_remove_stop">Remove</string>
 	<string name="placepage_add_stop">Add Stop</string>
+	<!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
+	<string name="alert_reauth_message">Please login to OpenStreetMap to automatically upload all your map edits. Learn more <a href="https://github.com/organicmaps/organicmaps/issues/6144">here</a>.</string>
 	<string name="dialog_error_storage_title">Storage access problem</string>
 	<string name="dialog_error_storage_message">External storage is not accessible. The SD Card may have been removed, damaged, or the file system is read-only. Please, check your SD Card or contact us at support\@organicmaps.app</string>
 	<string name="setting_emulate_bad_storage">Emulate bad storage</string>
@@ -718,6 +720,8 @@
 	<string name="by_distance">By distance</string>
 	<!-- Android -->
 	<string name="by_date">By date</string>
+	<!-- Android -->
+	<string name="by_name">By name</string>
 	<string name="week_ago_sorttype">A week ago</string>
 	<string name="month_ago_sorttype">A month ago</string>
 	<string name="moremonth_ago_sorttype">More than a month ago</string>
@@ -1037,24 +1041,12 @@
 	<string name="type.barrier.wall">Wall</string>
 	<string name="type.boundary">Boundary</string>
 	<string name="type.boundary.administrative">Administrative Boundary</string>
-	<string name="type.boundary.administrative.10">Administrative Boundary</string>
-	<string name="type.boundary.administrative.11">Administrative Boundary</string>
+	<!-- Borders between countries. -->
 	<string name="type.boundary.administrative.2">National Border</string>
-	<string name="type.boundary.administrative.3">Administrative Boundary</string>
-	<string name="type.boundary.administrative.4">Administrative Boundary</string>
-	<string name="type.boundary.administrative.5">Administrative Boundary</string>
-	<string name="type.boundary.administrative.6">Administrative Boundary</string>
-	<string name="type.boundary.administrative.7">Administrative Boundary</string>
-	<string name="type.boundary.administrative.8">Administrative Boundary</string>
-	<string name="type.boundary.administrative.9">Administrative Boundary</string>
-	<string name="type.boundary.administrative.city">City Boundary</string>
-	<string name="type.boundary.administrative.country">National Border</string>
-	<string name="type.boundary.administrative.county">County Boundary</string>
-	<string name="type.boundary.administrative.municipality">Municipality Boundary</string>
-	<string name="type.boundary.administrative.nation">National Border</string>
-	<string name="type.boundary.administrative.region">Regional Boundary</string>
-	<string name="type.boundary.administrative.state">State Boundary</string>
-	<string name="type.boundary.administrative.suburb">Suburb Boundary</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.3">Regional Boundary</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.4">Regional Boundary</string>
 	<string name="type.boundary.national_park">National Park</string>
 	<string name="type.boundary.aboriginal_lands">Indigenous Lands</string>
 	<string name="type.boundary.protected_area">Protected Area</string>
@@ -1090,7 +1082,7 @@
 	<string name="type.craft.key_cutter">Key Cutting</string>
 	<string name="type.craft.locksmith">Locksmith</string>
 	<string name="type.craft.metal_construction">Metal Worker</string>
-	<string name="type.craft.painter">Painter</string>
+	<string name="type.craft.painter">House Painter</string>
 	<string name="type.craft.photographer">Photographer</string>
 	<string name="type.shop.camera">Camera Shop</string>
 	<string name="type.craft.plumber">Plumber</string>
@@ -1550,7 +1542,12 @@
 	<string name="type.military.bunker">Bunker</string>
 	<string name="type.mountain_pass">Mountain Pass</string>
 	<string name="type.natural">Nature</string>
+	<!-- A rocky land cover. -->
 	<string name="type.natural.bare_rock">Bare Rock</string>
+	<!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
+	<string name="type.natural.shingle">Shingle</string>
+	<!-- A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. -->
+	<string name="type.natural.scree">Scree</string>
 	<string name="type.natural.bay">Bay</string>
 	<string name="type.natural.beach">Beach</string>
 	<string name="type.natural.beach.sand">Sandy Beach</string>
@@ -2109,7 +2106,7 @@
 	<string name="type.tourism.artwork.sculpture">Sculpture</string>
 	<string name="type.tourism.artwork.statue">Statue</string>
 	<string name="type.tourism.attraction">Attraction</string>
-	<string name="type.tourism.attraction.animal">Animal Enclosure</string>
+	<string name="type.attraction.animal">Animal Enclosure</string>
 	<string name="type.tourism.attraction.specified">Attraction</string>
 	<string name="type.tourism.camp_site">Campground</string>
 	<string name="type.tourism.caravan_site">RV Park</string>

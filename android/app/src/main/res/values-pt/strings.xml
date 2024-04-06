@@ -555,6 +555,8 @@
 	<string name="routing_add_finish_point">Adicionar final da viagem para planear uma rota</string>
 	<string name="placepage_remove_stop">Remover</string>
 	<string name="placepage_add_stop">Adicionar paragem</string>
+	<!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
+	<string name="alert_reauth_message">Por favor, faz o login no OpenStreetMap para carregar automaticamente todas as tuas edições de mapas. Sabe mais <a href="https://github.com/organicmaps/organicmaps/issues/6144">aqui</a>.</string>
 	<string name="dialog_error_storage_title">Problema de acesso ao armazenamento</string>
 	<string name="dialog_error_storage_message">O armazenamento externo não está disponível. Provavelmente porque o cartão SD foi removido, danificado ou o sistema de ficheiros é apenas para leitura. Verifique e contacte-nos através do email support\@organicmaps.app</string>
 	<string name="setting_emulate_bad_storage">Emular o armazenamento defeituoso</string>
@@ -667,6 +669,8 @@
 	<string name="by_distance">Por distância</string>
 	<!-- Android -->
 	<string name="by_date">Por data</string>
+	<!-- Android -->
+	<string name="by_name">Por nome</string>
 	<string name="week_ago_sorttype">Uma semana atrás</string>
 	<string name="month_ago_sorttype">Um mês atrás</string>
 	<string name="moremonth_ago_sorttype">Mais de um mês atrás</string>
@@ -953,24 +957,12 @@
 	<string name="type.barrier.wall">Muro</string>
 	<string name="type.boundary">Fronteira</string>
 	<string name="type.boundary.administrative">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.10">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.11">Fronteira administrativa</string>
+	<!-- Borders between countries. -->
 	<string name="type.boundary.administrative.2">Fronteira de país</string>
-	<string name="type.boundary.administrative.3">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.4">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.5">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.6">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.7">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.8">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.9">Fronteira administrativa</string>
-	<string name="type.boundary.administrative.city">Fronteira de cidade</string>
-	<string name="type.boundary.administrative.country">Fronteira de país</string>
-	<string name="type.boundary.administrative.county">Fronteira de condado</string>
-	<string name="type.boundary.administrative.municipality">Fronteira de município</string>
-	<string name="type.boundary.administrative.nation">Fronteira de nação</string>
-	<string name="type.boundary.administrative.region">Fronteira de região</string>
-	<string name="type.boundary.administrative.state">Fronteira de estado</string>
-	<string name="type.boundary.administrative.suburb">Fronteira de subúrbio</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.3">Fronteira de região</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.4">Fronteira de região</string>
 	<string name="type.boundary.national_park">Parque nacional</string>
 	<string name="type.boundary.aboriginal_lands">Terras indígenas</string>
 	<string name="type.boundary.protected_area">Área protegida</string>
@@ -1437,7 +1429,12 @@
 	<string name="type.military">Militar</string>
 	<string name="type.military.bunker">Búnquer</string>
 	<string name="type.natural">Natureza</string>
+	<!-- A rocky land cover. -->
 	<string name="type.natural.bare_rock">Zona rochosa</string>
+	<!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
+	<string name="type.natural.shingle">Seixos</string>
+	<!-- A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. -->
+	<string name="type.natural.scree">Pedregulho</string>
 	<string name="type.natural.bay">Baía</string>
 	<string name="type.natural.beach">Praia</string>
 	<string name="type.natural.beach.sand">Praia de areia</string>
@@ -1989,7 +1986,7 @@
 	<string name="type.tourism.artwork.sculpture">Escultura</string>
 	<string name="type.tourism.artwork.statue">Estátua</string>
 	<string name="type.tourism.attraction">Atração turística</string>
-	<string name="type.tourism.attraction.animal">Atração turística</string>
+	<string name="type.attraction.animal">Recinto para animais</string>
 	<string name="type.tourism.attraction.specified">Atração turística</string>
 	<string name="type.tourism.camp_site">Parque de campismo</string>
 	<string name="type.tourism.caravan_site">Parque de caravanas</string>

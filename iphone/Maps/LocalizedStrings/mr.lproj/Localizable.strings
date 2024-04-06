@@ -629,6 +629,8 @@
 
 "login" = "लॉग इन";
 
+"login_osm" = "Login to OpenStreetMap";
+
 "forgot_password" = "पासवर्ड विसरलात?";
 
 "osm_account" = "OSM खाते";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "अरेच्चा, त्रुटी आढळली. पुन्हा प्रवेश करण्याचा प्रयत्न करा.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "तुमची सर्व नकाशा संपादने स्वयंचलितपणे अपलोड करण्यासाठी कृपया OpenStreetMap वर लॉग इन करा.";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "येथे";
+
 "core_entrance" = "प्रवेशद्वार";
 
 "error_enter_correct_name" = "कृपया योग्य नाव प्रविष्ट करा";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "अंतरानुसार क्रमाने लावा";
 
 "sort_date" = "दिनांकानुसार क्रमाने लावा";
+
+"sort_name" = "नावानुसार क्रमवारी लावा";
 
 "week_ago_sorttype" = "गेल्या आठवड्यात";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "प्रशासकीय सीमा";
 
-"type.boundary.administrative.10" = "प्रशासकीय सीमा";
-
-"type.boundary.administrative.11" = "प्रशासकीय सीमा";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "राष्ट्रीय सीमा";
 
-"type.boundary.administrative.3" = "प्रशासकीय सीमा";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "प्रादेशिक सीमा";
 
-"type.boundary.administrative.4" = "प्रशासकीय सीमा";
-
-"type.boundary.administrative.5" = "प्रशासकीय सीमा";
-
-"type.boundary.administrative.6" = "प्रशासकीय सीमा";
-
-"type.boundary.administrative.7" = "प्रशासकीय सीमा";
-
-"type.boundary.administrative.8" = "प्रशासकीय सीमा";
-
-"type.boundary.administrative.9" = "प्रशासकीय सीमा";
-
-"type.boundary.administrative.city" = "शहराची सीमा";
-
-"type.boundary.administrative.country" = "राष्ट्रीय सीमा";
-
-"type.boundary.administrative.county" = "परगणा सीमा";
-
-"type.boundary.administrative.municipality" = "नगरपालिकेची सीमा";
-
-"type.boundary.administrative.nation" = "राष्ट्रीय सीमा";
-
-"type.boundary.administrative.region" = "प्रादेशिक सीमा";
-
-"type.boundary.administrative.state" = "राज्य सीमा";
-
-"type.boundary.administrative.suburb" = "उपनगर सीमा";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "प्रादेशिक सीमा";
 
 "type.boundary.national_park" = "राष्ट्रीय उद्यान";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "नैसर्गिक";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "खडक";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "खडे";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "स्क्री";
 
 "type.natural.bay" = "खाडी";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "आकर्षण";
 
-"type.tourism.attraction.animal" = "आकर्षण";
+"type.attraction.animal" = "प्राणी संलग्न";
 
 "type.tourism.attraction.specified" = "आकर्षण";
 

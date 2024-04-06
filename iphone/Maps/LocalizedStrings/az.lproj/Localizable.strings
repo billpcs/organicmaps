@@ -629,6 +629,8 @@
 
 "login" = "Daxil ol";
 
+"login_osm" = "OpenStreetMap-a daxil olun";
+
 "forgot_password" = "Parolu unutmusunuz?";
 
 "osm_account" = "OSM Hesabı";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "Bağışlayın, xəta baş verdi. Yenidən daxil olmağa çalışın.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Bütün xəritə redaktələrinizi avtomatik yükləmək üçün OpenStreetMap-a daxil olun.";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "burada";
+
 "core_entrance" = "Giriş";
 
 "error_enter_correct_name" = "Düzgün ad daxil edin";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Məsafəyə görə çeşidləyin";
 
 "sort_date" = "Tarixə görə çeşidləyin";
+
+"sort_name" = "Ada görə çeşidləyin";
 
 "week_ago_sorttype" = "Bir həftə əvvəl";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "İnzibati sərhəd";
 
-"type.boundary.administrative.10" = "İnzibati sərhəd";
-
-"type.boundary.administrative.11" = "İnzibati sərhəd";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "Milli sərhəd";
 
-"type.boundary.administrative.3" = "İnzibati sərhəd";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Regional sərhəd";
 
-"type.boundary.administrative.4" = "İnzibati sərhəd";
-
-"type.boundary.administrative.5" = "İnzibati sərhəd";
-
-"type.boundary.administrative.6" = "İnzibati sərhəd";
-
-"type.boundary.administrative.7" = "İnzibati sərhəd";
-
-"type.boundary.administrative.8" = "İnzibati sərhəd";
-
-"type.boundary.administrative.9" = "İnzibati sərhəd";
-
-"type.boundary.administrative.city" = "Şəhər limiti";
-
-"type.boundary.administrative.country" = "Milli sərhəd";
-
-"type.boundary.administrative.county" = "Rayon sərhədi";
-
-"type.boundary.administrative.municipality" = "Bələdiyyə sərhədi";
-
-"type.boundary.administrative.nation" = "Milli sərhəd";
-
-"type.boundary.administrative.region" = "Regional sərhəd";
-
-"type.boundary.administrative.state" = "Dövlət sərhədi";
-
-"type.boundary.administrative.suburb" = "Qonşuluq sərhədi";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Regional sərhəd";
 
 "type.boundary.national_park" = "Milli park";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Təbiət";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Çılpaq qaya";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Şingle";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Scree";
 
 "type.natural.bay" = "Bay";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Attraksionlar";
 
-"type.tourism.attraction.animal" = "Zoopark";
+"type.attraction.animal" = "Heyvan mühafizəsi";
 
 "type.tourism.attraction.specified" = "Attraksionlar";
 

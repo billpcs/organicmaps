@@ -629,6 +629,8 @@
 
 "login" = "Log ind";
 
+"login_osm" = "Log ind på OpenStreetMap";
+
 "forgot_password" = "Glemt adgangskode?";
 
 "osm_account" = "OSM-konto";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "Ups, der skete en fejl. Prøv at logge på igen.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Log ind på OpenStreetMap for automatisk at uploade alle dine kortredigeringer. Få mere at vide";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "her";
+
 "core_entrance" = "Indgang";
 
 "error_enter_correct_name" = "Angiv et korrekt navn";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Sort (Afs)";
 
 "sort_date" = "Sort (dato)";
+
+"sort_name" = "Sorter efter navn";
 
 "week_ago_sorttype" = "En uge siden";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Administrative Boundary";
 
-"type.boundary.administrative.10" = "Administrative Boundary";
-
-"type.boundary.administrative.11" = "Administrative Boundary";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "National Border";
 
-"type.boundary.administrative.3" = "Administrative Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Regional Boundary";
 
-"type.boundary.administrative.4" = "Administrative Boundary";
-
-"type.boundary.administrative.5" = "Administrative Boundary";
-
-"type.boundary.administrative.6" = "Administrative Boundary";
-
-"type.boundary.administrative.7" = "Administrative Boundary";
-
-"type.boundary.administrative.8" = "Administrative Boundary";
-
-"type.boundary.administrative.9" = "Administrative Boundary";
-
-"type.boundary.administrative.city" = "City Boundary";
-
-"type.boundary.administrative.country" = "National Border";
-
-"type.boundary.administrative.county" = "County Boundary";
-
-"type.boundary.administrative.municipality" = "Municipality Boundary";
-
-"type.boundary.administrative.nation" = "National Border";
-
-"type.boundary.administrative.region" = "Regional Boundary";
-
-"type.boundary.administrative.state" = "State Boundary";
-
-"type.boundary.administrative.suburb" = "Suburb Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Regional Boundary";
 
 "type.boundary.national_park" = "National park";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Natur";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Blottet klippe";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Småsten";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Stenet skrænt";
 
 "type.natural.bay" = "Bugt";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Attraktioner";
 
-"type.tourism.attraction.animal" = "Attraktioner";
+"type.attraction.animal" = "Indhegning til dyr";
 
 "type.tourism.attraction.specified" = "Attraktioner";
 

@@ -629,6 +629,8 @@
 
 "login" = "Login";
 
+"login_osm" = "Entrar no OpenStreetMap";
+
 "forgot_password" = "Esqueceu sua senha?";
 
 "osm_account" = "Conta OSM";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "Ups, ocorreu um erro. Tente iniciar sessão novamente.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Faça login no OpenStreetMap para carregar automaticamente todas as edições de mapas que você fizer. Saiba mais";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "aqui";
+
 "core_entrance" = "Entrada";
 
 "error_enter_correct_name" = "Por favor, digite um nome correto";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Ordenar por distância";
 
 "sort_date" = "Ordenar por data";
+
+"sort_name" = "Classificar por nome";
 
 "week_ago_sorttype" = "Uma semana atrás";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Fronteira administrativa";
 
-"type.boundary.administrative.10" = "Fronteira administrativa";
-
-"type.boundary.administrative.11" = "Fronteira administrativa";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "Fronteira de país";
 
-"type.boundary.administrative.3" = "Fronteira administrativa";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Fronteira de região";
 
-"type.boundary.administrative.4" = "Fronteira administrativa";
-
-"type.boundary.administrative.5" = "Fronteira administrativa";
-
-"type.boundary.administrative.6" = "Fronteira administrativa";
-
-"type.boundary.administrative.7" = "Fronteira administrativa";
-
-"type.boundary.administrative.8" = "Fronteira administrativa";
-
-"type.boundary.administrative.9" = "Fronteira administrativa";
-
-"type.boundary.administrative.city" = "Fronteira de cidade";
-
-"type.boundary.administrative.country" = "Fronteira de país";
-
-"type.boundary.administrative.county" = "Fronteira de condado";
-
-"type.boundary.administrative.municipality" = "Fronteira de município";
-
-"type.boundary.administrative.nation" = "Fronteira de nação";
-
-"type.boundary.administrative.region" = "Fronteira de região";
-
-"type.boundary.administrative.state" = "Fronteira de estado";
-
-"type.boundary.administrative.suburb" = "Fronteira de subúrbio";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Fronteira de região";
 
 "type.boundary.national_park" = "Parque nacional";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Natureza";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Zona rochosa";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Seixos";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Pedregulho pedregoso";
 
 "type.natural.bay" = "Baía";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Atração turística";
 
-"type.tourism.attraction.animal" = "Atração turística";
+"type.attraction.animal" = "Recinto para animais";
 
 "type.tourism.attraction.specified" = "Atração turística";
 

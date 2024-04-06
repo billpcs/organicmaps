@@ -564,6 +564,8 @@
 	<string name="routing_add_finish_point">Aggiungi un punto di arrivo per pianificare un percorso</string>
 	<string name="placepage_remove_stop">Rimuovi</string>
 	<string name="placepage_add_stop">Aggiungi sosta</string>
+	<!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
+	<string name="alert_reauth_message">Accedi a OpenStreetMap per caricare automaticamente tutte le tue modifiche alla mappa. Per saperne di più <a href="https://github.com/organicmaps/organicmaps/issues/6144">qui</a>.</string>
 	<string name="dialog_error_storage_title">Problema di accesso alla memoria</string>
 	<string name="dialog_error_storage_message">Archivio esterno non disponibile, probabilmente la scheda SD è stata rimossa, è danneggiata o il file system è di sola lettura. Controllala o contattaci su support\@organicmaps.app</string>
 	<string name="setting_emulate_bad_storage">Simula archivio danneggiato</string>
@@ -676,6 +678,8 @@
 	<string name="by_distance">Per distanza</string>
 	<!-- Android -->
 	<string name="by_date">Per data</string>
+	<!-- Android -->
+	<string name="by_name">Per nome</string>
 	<string name="week_ago_sorttype">Una settimana fa</string>
 	<string name="month_ago_sorttype">Un mese fa</string>
 	<string name="moremonth_ago_sorttype">Più di un mese fa</string>
@@ -985,22 +989,12 @@
 	<string name="type.barrier.wall">Muro</string>
 	<string name="type.boundary">Confine</string>
 	<string name="type.boundary.administrative">Confine amministrativo</string>
-	<string name="type.boundary.administrative.10">Confine amministrativo</string>
-	<string name="type.boundary.administrative.11">Confine amministrativo</string>
+	<!-- Borders between countries. -->
 	<string name="type.boundary.administrative.2">Confine nazionale</string>
-	<string name="type.boundary.administrative.3">Confine amministrativo</string>
-	<string name="type.boundary.administrative.4">Confine amministrativo</string>
-	<string name="type.boundary.administrative.5">Confine amministrativo</string>
-	<string name="type.boundary.administrative.6">Confine amministrativo</string>
-	<string name="type.boundary.administrative.7">Confine amministrativo</string>
-	<string name="type.boundary.administrative.8">Confine amministrativo</string>
-	<string name="type.boundary.administrative.9">Confine amministrativo</string>
-	<string name="type.boundary.administrative.city">Confine cittadino</string>
-	<string name="type.boundary.administrative.country">Confine nazionale</string>
-	<string name="type.boundary.administrative.municipality">Confini municipale</string>
-	<string name="type.boundary.administrative.nation">Confine nazionale</string>
-	<string name="type.boundary.administrative.region">Confine regionale</string>
-	<string name="type.boundary.administrative.state">Confine statale</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.3">Confine regionale</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.4">Confine regionale</string>
 	<string name="type.boundary.national_park">Parco nazionale</string>
 	<string name="type.boundary.aboriginal_lands">Terre indigene</string>
 	<string name="type.boundary.protected_area">Area protetta</string>
@@ -1461,7 +1455,12 @@
 	<string name="type.military.bunker">Bunker</string>
 	<string name="type.mountain_pass">Passo</string>
 	<string name="type.natural">Natura</string>
+	<!-- A rocky land cover. -->
 	<string name="type.natural.bare_rock">Roccia nuda</string>
+	<!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
+	<string name="type.natural.shingle">Ciottoli</string>
+	<!-- A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. -->
+	<string name="type.natural.scree">Ghiaia pietrosa</string>
 	<string name="type.natural.bay">Baia</string>
 	<string name="type.natural.beach">Spiaggia</string>
 	<string name="type.natural.beach.sand">Spiaggia sabbiosa</string>
@@ -1992,7 +1991,7 @@
 	<string name="type.tourism.artwork.sculpture">Scultura</string>
 	<string name="type.tourism.artwork.statue">Statua</string>
 	<string name="type.tourism.attraction">Attrattiva</string>
-	<string name="type.tourism.attraction.animal">Recinto</string>
+	<string name="type.attraction.animal">Recinto per animali</string>
 	<string name="type.tourism.attraction.specified">Attrattiva</string>
 	<string name="type.tourism.camp_site">Campeggio</string>
 	<string name="type.tourism.caravan_site">Area per campeggiatori</string>

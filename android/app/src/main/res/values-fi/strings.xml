@@ -583,6 +583,8 @@
 	<string name="routing_add_finish_point">Lisää määränpää reitin suunnittelua varten</string>
 	<string name="placepage_remove_stop">Poista</string>
 	<string name="placepage_add_stop">Lisää pysähdys</string>
+	<!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
+	<string name="alert_reauth_message">Kirjaudu sisään OpenStreetMapiin, jotta voit ladata kaikki karttamuutoksesi automaattisesti. Lisätietoja <a href="https://github.com/organicmaps/organicmaps/issues/6144">täältä</a>.</string>
 	<string name="dialog_error_storage_title">Ongelma tallennustilan käyttämisessä</string>
 	<string name="dialog_error_storage_message">Ulkoinen tallennustila ei ole käytettävissä, SD-kortti on luultavasti poistettu tai vahingoittunut tai tiedostojärjestelmä on vain luku -tilassa. Tarkista tai ota yhteyttä osoitteeseen support\@organicmaps.app</string>
 	<string name="setting_emulate_bad_storage">Jäljittele virheellistä tallennustilaa</string>
@@ -695,6 +697,8 @@
 	<string name="by_distance">Etäisyys</string>
 	<!-- Android -->
 	<string name="by_date">Päivämäärä</string>
+	<!-- Android -->
+	<string name="by_name">Nimen mukaan</string>
 	<string name="week_ago_sorttype">Viikko sitten</string>
 	<string name="month_ago_sorttype">Kuukausi sitten</string>
 	<string name="moremonth_ago_sorttype">Yli kuukausi sitten</string>
@@ -999,23 +1003,8 @@
 	<string name="type.barrier.wall">Muuri</string>
 	<string name="type.boundary">Raja</string>
 	<string name="type.boundary.administrative">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.10">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.11">Hallinnollinen raja</string>
+	<!-- Borders between countries. -->
 	<string name="type.boundary.administrative.2">Valtakunnanraja</string>
-	<string name="type.boundary.administrative.3">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.4">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.5">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.6">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.7">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.8">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.9">Hallinnollinen raja</string>
-	<string name="type.boundary.administrative.city">Kaupunginraja</string>
-	<string name="type.boundary.administrative.country">Valtakunnanraja</string>
-	<string name="type.boundary.administrative.county">Maakunnanraja</string>
-	<string name="type.boundary.administrative.municipality">Kunnanraja</string>
-	<string name="type.boundary.administrative.nation">Valtakunnanraja</string>
-	<string name="type.boundary.administrative.state">Osavaltion raja</string>
-	<string name="type.boundary.administrative.suburb">Esikaupunki</string>
 	<string name="type.boundary.national_park">Kansallispuisto</string>
 	<string name="type.boundary.aboriginal_lands">Alkuperäiskansojen maat</string>
 	<string name="type.boundary.protected_area">Suojeltu alue</string>
@@ -1464,7 +1453,12 @@
 	<string name="type.man_made.windmill">Tuulimylly</string>
 	<string name="type.military.bunker">Bunkkeri</string>
 	<string name="type.natural">Luonto</string>
+	<!-- A rocky land cover. -->
 	<string name="type.natural.bare_rock">Paljas kallio</string>
+	<!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
+	<string name="type.natural.shingle">Pebbles</string>
+	<!-- A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. -->
+	<string name="type.natural.scree">Kivinen rapakivi</string>
 	<string name="type.natural.bay">Lahti</string>
 	<string name="type.natural.beach">Ranta</string>
 	<string name="type.natural.beach.sand">Hiekkainen ranta</string>
@@ -1977,7 +1971,7 @@
 	<string name="type.tourism.artwork.sculpture">Taideteos</string>
 	<string name="type.tourism.artwork.statue">Taideteos</string>
 	<string name="type.tourism.attraction">Nähtävyys</string>
-	<string name="type.tourism.attraction.animal">Nähtävyys</string>
+	<string name="type.attraction.animal">Eläinsuoja</string>
 	<string name="type.tourism.attraction.specified">Nähtävyys</string>
 	<string name="type.tourism.camp_site">Retkeily</string>
 	<string name="type.tourism.caravan_site">Asuntovaunupaikka</string>

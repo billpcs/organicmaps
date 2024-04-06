@@ -629,6 +629,8 @@
 
 "login" = "Oturum aç";
 
+"login_osm" = "OpenStreetMap'e giriş yap";
+
 "forgot_password" = "Şifreni mi unuttun?";
 
 "osm_account" = "OSM Hesabı";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "Üzgünüz, bir hata oluştu. Tekrar oturum açmayı deneyin.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Tüm harita düzenlemelerinizi otomatik olarak yüklemek için lütfen OpenStreetMap'e giriş yapın. Daha fazla bilgi";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "burada";
+
 "core_entrance" = "Giriş";
 
 "error_enter_correct_name" = "Lütfen doğru bir isim girin";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Mesafeye göre sırala";
 
 "sort_date" = "Tarihe göre sırala";
+
+"sort_name" = "İsme göre sırala";
 
 "week_ago_sorttype" = "Bir hafta önce";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "İdari Sınır";
 
-"type.boundary.administrative.10" = "İdari Sınır";
-
-"type.boundary.administrative.11" = "İdari Sınır";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "Ulusal Sınır";
 
-"type.boundary.administrative.3" = "İdari Sınır";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Bölgesel Sınır";
 
-"type.boundary.administrative.4" = "İdari Sınır";
-
-"type.boundary.administrative.5" = "İdari Sınır";
-
-"type.boundary.administrative.6" = "İdari Sınır";
-
-"type.boundary.administrative.7" = "İdari Sınır";
-
-"type.boundary.administrative.8" = "İdari Sınır";
-
-"type.boundary.administrative.9" = "İdari Sınır";
-
-"type.boundary.administrative.city" = "Şehir Sınırı";
-
-"type.boundary.administrative.country" = "Ulusal Sınır";
-
-"type.boundary.administrative.county" = "İlçe Sınırı";
-
-"type.boundary.administrative.municipality" = "Belediye Sınırı";
-
-"type.boundary.administrative.nation" = "Ulusal Sınır";
-
-"type.boundary.administrative.region" = "Bölgesel Sınır";
-
-"type.boundary.administrative.state" = "Devlet Sınırı";
-
-"type.boundary.administrative.suburb" = "Mahalle Sınırı";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Bölgesel Sınır";
 
 "type.boundary.national_park" = "Ulusal Park";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Doğa";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Çıplak Kaya";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Çakıl Taşları";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Kayşat";
 
 "type.natural.bay" = "Koy";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Görülecek Yerler";
 
-"type.tourism.attraction.animal" = "Hayvanat bahçesi";
+"type.attraction.animal" = "Hayvan Muhafazası";
 
 "type.tourism.attraction.specified" = "Görülecek Yerler";
 

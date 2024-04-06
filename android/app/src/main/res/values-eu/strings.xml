@@ -579,6 +579,8 @@
 	<string name="routing_add_finish_point">Gehitu helmuga bat ibilbide bat antolatzeko</string>
 	<string name="placepage_remove_stop">Kendu</string>
 	<string name="placepage_add_stop">Gehitu geldiunea</string>
+	<!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
+	<string name="alert_reauth_message">Hasi saioa OpenStreetMap-en zure mapen aldaketa guztiak automatikoki kargatzeko. Lortu informazio gehiago <a href="https://github.com/organicmaps/organicmaps/issues/6144">hemen</a>.</string>
 	<string name="dialog_error_storage_title">Biltegiratze sarbidearen arazoa</string>
 	<string name="dialog_error_storage_message">Kanpoko biltegiratzea ez dago erabilgarri; Baliteke SD txartela kendu edo hondatuta egotea, edo fitxategi sistema irakurtzeko soilik izatea. Mesedez, begiratu edo idatzi iezaguzu support\@organicmaps.app helbidera</string>
 	<string name="setting_emulate_bad_storage">Emulatu kaltetutako biltegiratzea</string>
@@ -691,6 +693,8 @@
 	<string name="by_distance">Distantziaren arabera</string>
 	<!-- Android -->
 	<string name="by_date">Dataren arabera</string>
+	<!-- Android -->
+	<string name="by_name">Izenaren arabera</string>
 	<string name="week_ago_sorttype">Duela aste bat</string>
 	<string name="month_ago_sorttype">Duela hilabete bat</string>
 	<string name="moremonth_ago_sorttype">Duela hilabete baino gehiago</string>
@@ -997,24 +1001,12 @@
 	<string name="type.barrier.wall">Horma</string>
 	<string name="type.boundary">Muga</string>
 	<string name="type.boundary.administrative">Muga administratiboa</string>
-	<string name="type.boundary.administrative.10">Muga administratiboa</string>
-	<string name="type.boundary.administrative.11">Muga administratiboa</string>
+	<!-- Borders between countries. -->
 	<string name="type.boundary.administrative.2">Herrialdeko muga</string>
-	<string name="type.boundary.administrative.3">Muga administratiboa</string>
-	<string name="type.boundary.administrative.4">Muga administratiboa</string>
-	<string name="type.boundary.administrative.5">Muga administratiboa</string>
-	<string name="type.boundary.administrative.6">Muga administratiboa</string>
-	<string name="type.boundary.administrative.7">Muga administratiboa</string>
-	<string name="type.boundary.administrative.8">Muga administratiboa</string>
-	<string name="type.boundary.administrative.9">Muga administratiboa</string>
-	<string name="type.boundary.administrative.city">Hiriko muga</string>
-	<string name="type.boundary.administrative.country">Herrialdeko muga</string>
-	<string name="type.boundary.administrative.county">Eskualdeko muga</string>
-	<string name="type.boundary.administrative.municipality">Udalerriko muga</string>
-	<string name="type.boundary.administrative.nation">Nazio muga</string>
-	<string name="type.boundary.administrative.region">Eskualdeko muga</string>
-	<string name="type.boundary.administrative.state">Estatuko muga</string>
-	<string name="type.boundary.administrative.suburb">Auzoko muga</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.3">Eskualdeko muga</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.4">Eskualdeko muga</string>
 	<string name="type.boundary.national_park">Parke Nazionala</string>
 	<string name="type.boundary.aboriginal_lands">Lurralde autoktonoak</string>
 	<string name="type.boundary.protected_area">Babestutako Eremua</string>
@@ -1435,7 +1427,12 @@
 	<string name="type.man_made.windmill">Haize-errota</string>
 	<string name="type.military.bunker">Bunkerra</string>
 	<string name="type.natural">Natura</string>
+	<!-- A rocky land cover. -->
 	<string name="type.natural.bare_rock">Harkaitz biluzi</string>
+	<!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
+	<string name="type.natural.shingle">Harri koskor</string>
+	<!-- A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. -->
+	<string name="type.natural.scree">Srika</string>
 	<string name="type.natural.bay">Badia</string>
 	<string name="type.natural.beach">Hondartza</string>
 	<string name="type.natural.beach.sand">Hondartza hondartza</string>
@@ -1949,7 +1946,7 @@
 	<string name="type.tourism.artwork.sculpture">Artelanak</string>
 	<string name="type.tourism.artwork.statue">Artelanak</string>
 	<string name="type.tourism.attraction">Erakarpen turistikoa</string>
-	<string name="type.tourism.attraction.animal">Erakarpen turistikoa</string>
+	<string name="type.attraction.animal">Animalien itxitura</string>
 	<string name="type.tourism.attraction.specified">Erakarpen turistikoa</string>
 	<string name="type.tourism.camp_site">Kanpalekua</string>
 	<string name="type.tourism.caravan_site">Karabana gunea</string>

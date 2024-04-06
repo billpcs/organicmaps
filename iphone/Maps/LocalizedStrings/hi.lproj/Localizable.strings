@@ -627,7 +627,9 @@
 
 "invalid_username_or_password" = "Invalid username or password.";
 
-"login" = "OpenStreetMap Login";
+"login" = "Login";
+
+"login_osm" = "Login to OpenStreetMap";
 
 "forgot_password" = "Forgot your password?";
 
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "उफ़, एक त्रुटि हुई. पुनः साइन इन करने का प्रयास करें.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "कृपया अपने सभी मानचित्र संपादनों को स्वचालित रूप से अपलोड करने के लिए OpenStreetMap पर लॉगिन करें। अधिक जानें";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "यहां";
+
 "core_entrance" = "Entrance";
 
 "error_enter_correct_name" = "Please enter a correct name";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Sort by distance";
 
 "sort_date" = "Sort by date";
+
+"sort_name" = "नाम द्वारा क्रमबद्ध करें";
 
 "week_ago_sorttype" = "A week ago";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Administrative Boundary";
 
-"type.boundary.administrative.10" = "Administrative Boundary";
-
-"type.boundary.administrative.11" = "Administrative Boundary";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "National Border";
 
-"type.boundary.administrative.3" = "Administrative Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Regional Boundary";
 
-"type.boundary.administrative.4" = "Administrative Boundary";
-
-"type.boundary.administrative.5" = "Administrative Boundary";
-
-"type.boundary.administrative.6" = "Administrative Boundary";
-
-"type.boundary.administrative.7" = "Administrative Boundary";
-
-"type.boundary.administrative.8" = "Administrative Boundary";
-
-"type.boundary.administrative.9" = "Administrative Boundary";
-
-"type.boundary.administrative.city" = "City Boundary";
-
-"type.boundary.administrative.country" = "National Border";
-
-"type.boundary.administrative.county" = "County Boundary";
-
-"type.boundary.administrative.municipality" = "Municipality Boundary";
-
-"type.boundary.administrative.nation" = "National Border";
-
-"type.boundary.administrative.region" = "Regional Boundary";
-
-"type.boundary.administrative.state" = "State Boundary";
-
-"type.boundary.administrative.suburb" = "Suburb Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Regional Boundary";
 
 "type.boundary.national_park" = "National Park";
 
@@ -1768,7 +1751,7 @@
 
 "type.craft.metal_construction" = "Metal Worker";
 
-"type.craft.painter" = "Painter";
+"type.craft.painter" = "House Painter";
 
 "type.craft.photographer" = "फोटोग्राफर";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "प्रकृति";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Bare Rock";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "कंकड़";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "रोड़ी";
 
 "type.natural.bay" = "खाड़ी";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "पर्यटन स्थल";
 
-"type.tourism.attraction.animal" = "पर्यटन स्थल";
+"type.attraction.animal" = "पशु बाड़ा";
 
 "type.tourism.attraction.specified" = "पर्यटन स्थल";
 

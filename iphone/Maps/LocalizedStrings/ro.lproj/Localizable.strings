@@ -629,6 +629,8 @@
 
 "login" = "Autentificare";
 
+"login_osm" = "Conectați-vă la OpenStreetMap";
+
 "forgot_password" = "Ai uitat parola?";
 
 "osm_account" = "Cont OSM";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "A apărut o eroare. Încearcă să te conectezi din nou.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Vă rugăm să vă conectați la OpenStreetMap pentru a încărca automat toate modificările aduse hărții. Aflați mai multe";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "aici";
+
 "core_entrance" = "Intrare";
 
 "error_enter_correct_name" = "Introdu un nume corect";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Sortează după distanță";
 
 "sort_date" = "Sortează după dată";
+
+"sort_name" = "Sortează după nume";
 
 "week_ago_sorttype" = "Acum o săptămână";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Administrative Boundary";
 
-"type.boundary.administrative.10" = "Administrative Boundary";
-
-"type.boundary.administrative.11" = "Administrative Boundary";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "National Border";
 
-"type.boundary.administrative.3" = "Administrative Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Regional Boundary";
 
-"type.boundary.administrative.4" = "Administrative Boundary";
-
-"type.boundary.administrative.5" = "Administrative Boundary";
-
-"type.boundary.administrative.6" = "Administrative Boundary";
-
-"type.boundary.administrative.7" = "Administrative Boundary";
-
-"type.boundary.administrative.8" = "Administrative Boundary";
-
-"type.boundary.administrative.9" = "Administrative Boundary";
-
-"type.boundary.administrative.city" = "City Boundary";
-
-"type.boundary.administrative.country" = "National Border";
-
-"type.boundary.administrative.county" = "County Boundary";
-
-"type.boundary.administrative.municipality" = "Municipality Boundary";
-
-"type.boundary.administrative.nation" = "National Border";
-
-"type.boundary.administrative.region" = "Regional Boundary";
-
-"type.boundary.administrative.state" = "State Boundary";
-
-"type.boundary.administrative.suburb" = "Suburb Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Regional Boundary";
 
 "type.boundary.national_park" = "Parcul național";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Natură";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Piatră goală";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Pietriș";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Grohotiș";
 
 "type.natural.bay" = "Golf";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Punct de atracție";
 
-"type.tourism.attraction.animal" = "Punct de atracție";
+"type.attraction.animal" = "Incintă pentru animale";
 
 "type.tourism.attraction.specified" = "Punct de atracție";
 

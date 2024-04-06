@@ -629,6 +629,8 @@
 
 "login" = "تسجيل الدخول";
 
+"login_osm" = "تسجيل الدخول الى OpenStreetMap";
+
 "forgot_password" = "هل نسيت كلمة المرور؟";
 
 "osm_account" = "حساب على خريطة الشارع المفتوحة";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "عفوًا، كان هناك خطأ. حاول تسجيل الدخول مرة اخرى.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "برجاء تسجيل الدخول إلى OpenStreetMap لتحميل جميع تعديلات الخريطة تلقائيًا. تعرف على المزيد";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "هنا";
+
 "core_entrance" = "المدخل";
 
 "error_enter_correct_name" = "الرجاء إدخال اسم صحيح";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "رتّب حسب المسافة";
 
 "sort_date" = "رتّب حسب التاريخ";
+
+"sort_name" = "الترتيب حسب الاسم";
 
 "week_ago_sorttype" = "منذ أسبوع";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "حدود إدارية";
 
-"type.boundary.administrative.10" = "حدود إدارية";
-
-"type.boundary.administrative.11" = "حدود إدارية";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "حدود دولية";
 
-"type.boundary.administrative.3" = "حدود إدارية";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "حدود منطقة";
 
-"type.boundary.administrative.4" = "حدود إدارية";
-
-"type.boundary.administrative.5" = "حدود إدارية";
-
-"type.boundary.administrative.6" = "حدود إدارية";
-
-"type.boundary.administrative.7" = "حدود إدارية";
-
-"type.boundary.administrative.8" = "حدود إدارية";
-
-"type.boundary.administrative.9" = "حدود إدارية";
-
-"type.boundary.administrative.city" = "حدود مدينة";
-
-"type.boundary.administrative.country" = "حدود دولية";
-
-"type.boundary.administrative.county" = "حدود مقاطعة";
-
-"type.boundary.administrative.municipality" = "حدود بلدية";
-
-"type.boundary.administrative.nation" = "حدود دولية";
-
-"type.boundary.administrative.region" = "حدود منطقة";
-
-"type.boundary.administrative.state" = "حدود محافظة";
-
-"type.boundary.administrative.suburb" = "حدود ضاحية";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "حدود منطقة";
 
 "type.boundary.national_park" = "منتزه وطني";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "طبيعة";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "صخور عارية";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "الحصى";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "حصى";
 
 "type.natural.bay" = "خليج";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "مكان جذاب";
 
-"type.tourism.attraction.animal" = "مكان جذاب";
+"type.attraction.animal" = "الضميمة الحيوانية";
 
 "type.tourism.attraction.specified" = "مكان جذاب";
 

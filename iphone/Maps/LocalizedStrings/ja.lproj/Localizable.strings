@@ -629,6 +629,8 @@
 
 "login" = "ログイン";
 
+"login_osm" = "OpenStreetMapにログイン";
+
 "forgot_password" = "パスワードをお忘れですか？";
 
 "osm_account" = "OSMアカウント";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "エラーが発生しました。もう一度サインインしてみてください。";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "すべてのマップ編集を自動的にアップロードするには、OpenStreetMapにログインしてください。詳しくは";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "こちら";
+
 "core_entrance" = "入口";
 
 "error_enter_correct_name" = "正しい名前を入力してください";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "距離で並び替え";
 
 "sort_date" = "日付で並び替え";
+
+"sort_name" = "名前でソートする";
 
 "week_ago_sorttype" = "1週間前";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "行政境界";
 
-"type.boundary.administrative.10" = "行政境界";
-
-"type.boundary.administrative.11" = "行政境界";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "National Border";
 
-"type.boundary.administrative.3" = "行政境界";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Regional Boundary";
 
-"type.boundary.administrative.4" = "行政境界";
-
-"type.boundary.administrative.5" = "行政境界";
-
-"type.boundary.administrative.6" = "行政境界";
-
-"type.boundary.administrative.7" = "行政境界";
-
-"type.boundary.administrative.8" = "行政境界";
-
-"type.boundary.administrative.9" = "行政境界";
-
-"type.boundary.administrative.city" = "City Boundary";
-
-"type.boundary.administrative.country" = "National Border";
-
-"type.boundary.administrative.county" = "County Boundary";
-
-"type.boundary.administrative.municipality" = "Municipality Boundary";
-
-"type.boundary.administrative.nation" = "National Border";
-
-"type.boundary.administrative.region" = "Regional Boundary";
-
-"type.boundary.administrative.state" = "State Boundary";
-
-"type.boundary.administrative.suburb" = "Suburb Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Regional Boundary";
 
 "type.boundary.national_park" = "国立公園";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "自然";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "岩肌";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "小石";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "石がゴロゴロしている";
 
 "type.natural.bay" = "港湾";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "アトラクション";
 
-"type.tourism.attraction.animal" = "動物";
+"type.attraction.animal" = "アニマル・エンクロージャー";
 
 "type.tourism.attraction.specified" = "アトラクション";
 

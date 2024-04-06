@@ -629,6 +629,8 @@
 
 "login" = "ล็อกอิน";
 
+"login_osm" = "เข้าสู่ระบบ OpenStreetMap";
+
 "forgot_password" = "ลืมรหัสผ่าน?";
 
 "osm_account" = "บัญชี OSM";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "โอ๊ะ มีข้อผิดพลาดเกิดขึ้น ลองลงชื่อเข้าใช้อีกครั้ง";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "กรุณาเข้าสู่ระบบ OpenStreetMap เพื่ออัปโหลดการแก้ไขแผนที่ทั้งหมดของคุณโดยอัตโนมัติ เรียนรู้เพิ่มเติม";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "ที่นี่";
+
 "core_entrance" = "ทางเข้า";
 
 "error_enter_correct_name" = "กรุณาใส่ชื่อที่ถูกต้อง";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "เรียงตามระยะทาง";
 
 "sort_date" = "เรียงตามวันที่";
+
+"sort_name" = "เรียงตามชื่อ";
 
 "week_ago_sorttype" = "สัปดาห์ที่ผ่านมา";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Administrative Boundary";
 
-"type.boundary.administrative.10" = "Administrative Boundary";
-
-"type.boundary.administrative.11" = "Administrative Boundary";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "National Border";
 
-"type.boundary.administrative.3" = "Administrative Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Regional Boundary";
 
-"type.boundary.administrative.4" = "Administrative Boundary";
-
-"type.boundary.administrative.5" = "Administrative Boundary";
-
-"type.boundary.administrative.6" = "Administrative Boundary";
-
-"type.boundary.administrative.7" = "Administrative Boundary";
-
-"type.boundary.administrative.8" = "Administrative Boundary";
-
-"type.boundary.administrative.9" = "Administrative Boundary";
-
-"type.boundary.administrative.city" = "City Boundary";
-
-"type.boundary.administrative.country" = "National Border";
-
-"type.boundary.administrative.county" = "County Boundary";
-
-"type.boundary.administrative.municipality" = "Municipality Boundary";
-
-"type.boundary.administrative.nation" = "National Border";
-
-"type.boundary.administrative.region" = "Regional Boundary";
-
-"type.boundary.administrative.state" = "State Boundary";
-
-"type.boundary.administrative.suburb" = "Suburb Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Regional Boundary";
 
 "type.boundary.national_park" = "อุทยานแห่งชาติ";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "ธรรมชาติ";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "เปลือยร็อค";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "ก้อนกรวด";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "หินกรวด";
 
 "type.natural.bay" = "อ่าว";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "การท่องเที่ยว";
 
-"type.tourism.attraction.animal" = "การท่องเที่ยว";
+"type.attraction.animal" = "สิ่งที่แนบมากับสัตว์";
 
 "type.tourism.attraction.specified" = "การท่องเที่ยว";
 

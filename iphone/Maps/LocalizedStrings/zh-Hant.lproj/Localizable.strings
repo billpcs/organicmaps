@@ -629,6 +629,8 @@
 
 "login" = "登入";
 
+"login_osm" = "登錄 OpenStreetMap";
+
 "forgot_password" = "忘記密碼";
 
 "osm_account" = "OSM 帳號";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "噢，發生錯誤。請嘗試再次登入。";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "請登入 OpenStreetMap 自動上傳您所有的地圖編輯內容。了解更多";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "此處";
+
 "core_entrance" = "入口";
 
 "error_enter_correct_name" = "請輸入正確的名稱";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "按距離排序";
 
 "sort_date" = "按日期排序";
+
+"sort_name" = "按名稱分類";
 
 "week_ago_sorttype" = "一週前";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Administrative Boundary";
 
-"type.boundary.administrative.10" = "Administrative Boundary";
-
-"type.boundary.administrative.11" = "Administrative Boundary";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "National Border";
 
-"type.boundary.administrative.3" = "Administrative Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Regional Boundary";
 
-"type.boundary.administrative.4" = "Administrative Boundary";
-
-"type.boundary.administrative.5" = "Administrative Boundary";
-
-"type.boundary.administrative.6" = "Administrative Boundary";
-
-"type.boundary.administrative.7" = "Administrative Boundary";
-
-"type.boundary.administrative.8" = "Administrative Boundary";
-
-"type.boundary.administrative.9" = "Administrative Boundary";
-
-"type.boundary.administrative.city" = "City Boundary";
-
-"type.boundary.administrative.country" = "National Border";
-
-"type.boundary.administrative.county" = "County Boundary";
-
-"type.boundary.administrative.municipality" = "Municipality Boundary";
-
-"type.boundary.administrative.nation" = "National Border";
-
-"type.boundary.administrative.region" = "Regional Boundary";
-
-"type.boundary.administrative.state" = "State Boundary";
-
-"type.boundary.administrative.suburb" = "Suburb Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Regional Boundary";
 
 "type.boundary.national_park" = "國家公園";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "自然";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "岩石";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "卵石";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "碎石";
 
 "type.natural.bay" = "海灣";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "景點";
 
-"type.tourism.attraction.animal" = "景點";
+"type.attraction.animal" = "動物圍欄";
 
 "type.tourism.attraction.specified" = "景點";
 

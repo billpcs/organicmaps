@@ -583,6 +583,8 @@
 	<string name="routing_add_finish_point">Вкажіть кінцеву точку для побудови маршруту</string>
 	<string name="placepage_remove_stop">Видалити</string>
 	<string name="placepage_add_stop">Додати зупинку</string>
+	<!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
+	<string name="alert_reauth_message">Будь ласка увійдіть в акаунт OpenStreetMap.org, щоб автоматично публікувати зміни до мапи. Подробиці за <a href="https://github.com/organicmaps/organicmaps/issues/6144">посиланням</a>.</string>
 	<string name="dialog_error_storage_title">Не вдалося отримати доступ до сховища</string>
 	<string name="dialog_error_storage_message">Зовнішнє сховище не доступно. Ймовірно, SD-картку пам\'яті було вилучено, пошкоджено, або система файлів доступна тільки для читання. Будь ласка, перевірте та зв\'яжіться з нами, написавши на адресу електронну пошту support\@organicmaps.app</string>
 	<string name="setting_emulate_bad_storage">Емулювати проблемне сховище</string>
@@ -693,6 +695,8 @@
 	<string name="by_distance">За відстанню</string>
 	<!-- Android -->
 	<string name="by_date">За датою</string>
+	<!-- Android -->
+	<string name="by_name">За назвою</string>
 	<string name="week_ago_sorttype">Тиждень тому</string>
 	<string name="month_ago_sorttype">Місяць тому</string>
 	<string name="moremonth_ago_sorttype">Понад місяць тому</string>
@@ -1004,22 +1008,12 @@
 	<string name="type.barrier.wall">Стіна</string>
 	<string name="type.boundary">Кордон</string>
 	<string name="type.boundary.administrative">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.10">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.11">Адміністративний поділ</string>
+	<!-- Borders between countries. -->
 	<string name="type.boundary.administrative.2">Кордон країни</string>
-	<string name="type.boundary.administrative.3">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.4">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.5">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.6">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.7">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.8">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.9">Адміністративний поділ</string>
-	<string name="type.boundary.administrative.city">Межа міста</string>
-	<string name="type.boundary.administrative.country">Кордон країни</string>
-	<string name="type.boundary.administrative.county">Поділ округа</string>
-	<string name="type.boundary.administrative.nation">Кордон країни</string>
-	<string name="type.boundary.administrative.region">Областний поділ</string>
-	<string name="type.boundary.administrative.suburb">Приміська межа</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.3">Областний поділ</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.4">Областний поділ</string>
 	<string name="type.boundary.national_park">Національний парк</string>
 	<string name="type.boundary.aboriginal_lands">Землі корінних народів</string>
 	<string name="type.boundary.protected_area">Заповідна зона</string>
@@ -1493,7 +1487,12 @@
 	<string name="type.military.bunker">Бункер</string>
 	<string name="type.mountain_pass">Перевал</string>
 	<string name="type.natural">Природа</string>
-	<string name="type.natural.bare_rock">Скелi</string>
+	<!-- A rocky land cover. -->
+	<string name="type.natural.bare_rock">Кам\'яна порода</string>
+	<!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
+	<string name="type.natural.shingle">Галька</string>
+	<!-- A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. -->
+	<string name="type.natural.scree">Кам\'янистий осип</string>
 	<string name="type.natural.bay">Затока</string>
 	<string name="type.natural.beach">Пляж</string>
 	<string name="type.natural.beach.sand">Піщаний пляж</string>
@@ -2045,7 +2044,7 @@
 	<string name="type.tourism.artwork.sculpture">Витвір мистецтва</string>
 	<string name="type.tourism.artwork.statue">Витвір мистецтва</string>
 	<string name="type.tourism.attraction">Пам’ятне місце</string>
-	<string name="type.tourism.attraction.animal">Пам’ятне місце</string>
+	<string name="type.attraction.animal">Вольєр для тварин</string>
 	<string name="type.tourism.attraction.specified">Пам’ятне місце</string>
 	<string name="type.tourism.camp_site">Кемпінг</string>
 	<string name="type.tourism.caravan_site">Кемпінг для автобудинків</string>

@@ -629,6 +629,8 @@
 
 "login" = "Logi sisse";
 
+"login_osm" = "Logi sisse OpenStreetMap-i";
+
 "forgot_password" = "Unustasid oma salasõna?";
 
 "osm_account" = "OSM konto";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "Vabandust, tekkis viga. Proovi uuesti sisse logida.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Palun logige sisse OpenStreetMap'i, et laadida automaatselt üles kõik oma kaarditööd. Lisateave";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "kuskil";
+
 "core_entrance" = "Sissepääs";
 
 "error_enter_correct_name" = "Palun sisesta korrektne nimi";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Sorteeri kauguse järgi";
 
 "sort_date" = "Sorteeri kuupäeva järgi";
+
+"sort_name" = "Sorteeri nime järgi";
 
 "week_ago_sorttype" = "Nädal tagasi";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Halduspiir";
 
-"type.boundary.administrative.10" = "Halduspiir";
-
-"type.boundary.administrative.11" = "Halduspiir";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "Riigipiir";
 
-"type.boundary.administrative.3" = "Halduspiir";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Piirkondlik piir";
 
-"type.boundary.administrative.4" = "Halduspiir";
-
-"type.boundary.administrative.5" = "Halduspiir";
-
-"type.boundary.administrative.6" = "Halduspiir";
-
-"type.boundary.administrative.7" = "Halduspiir";
-
-"type.boundary.administrative.8" = "Halduspiir";
-
-"type.boundary.administrative.9" = "Halduspiir";
-
-"type.boundary.administrative.city" = "Linna piir";
-
-"type.boundary.administrative.country" = "Riigipiir";
-
-"type.boundary.administrative.county" = "Maakonna piir";
-
-"type.boundary.administrative.municipality" = "Valla piir";
-
-"type.boundary.administrative.nation" = "Riigipiir";
-
-"type.boundary.administrative.region" = "Piirkondlik piir";
-
-"type.boundary.administrative.state" = "Osariigi piir";
-
-"type.boundary.administrative.suburb" = "Eeslinna piir";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Piirkondlik piir";
 
 "type.boundary.national_park" = "Rahvuspark";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Loodus";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Paljas kivi";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Pebbles";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Kiviklibu";
 
 "type.natural.bay" = "Laht";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Turismiatraktsioon";
 
-"type.tourism.attraction.animal" = "Loomade aedik";
+"type.attraction.animal" = "Loomade aedik";
 
 "type.tourism.attraction.specified" = "Turismiatraktsioon";
 

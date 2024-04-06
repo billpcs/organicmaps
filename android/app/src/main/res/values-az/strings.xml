@@ -581,6 +581,8 @@
 	<string name="routing_add_finish_point">Marşrutu planlaşdırmaq üçün təyinat əlavə edin</string>
 	<string name="placepage_remove_stop">Sil</string>
 	<string name="placepage_add_stop">Dayanacaq nöqtəsini əlavə edin</string>
+	<!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
+	<string name="alert_reauth_message">Bütün xəritə redaktələrinizi avtomatik yükləmək üçün OpenStreetMap-a daxil olun. <a href="https://github.com/organicmaps/organicmaps/issues/6144">burada</a> ətraflı məlumat əldə edin.</string>
 	<string name="dialog_error_storage_title">Yaddaş giriş problemi</string>
 	<string name="dialog_error_storage_message">Xarici yaddaş mövcud deyil, ola bilsin ki, SD Kart çıxarılıb, zədələnib və ya fayl sistemi yalnız oxunur. Zəhmət olmasa yoxlayın və ya support\@organicmaps.app ünvanında bizimlə əlaqə saxlayın</string>
 	<string name="setting_emulate_bad_storage">Zədələnmiş yaddaşı təqlid edin</string>
@@ -687,6 +689,8 @@
 	<string name="by_distance">Məsafəyə görə</string>
 	<!-- Android -->
 	<string name="by_date">Tarixə görə</string>
+	<!-- Android -->
+	<string name="by_name">Ada görə</string>
 	<string name="week_ago_sorttype">Bir həftə əvvəl</string>
 	<string name="month_ago_sorttype">Bir ay əvvəl</string>
 	<string name="moremonth_ago_sorttype">Bir aydan çox əvvəl</string>
@@ -973,24 +977,12 @@
 	<string name="type.barrier.wall">Divar</string>
 	<string name="type.boundary">Sərhəd</string>
 	<string name="type.boundary.administrative">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.10">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.11">İnzibati sərhəd</string>
+	<!-- Borders between countries. -->
 	<string name="type.boundary.administrative.2">Milli sərhəd</string>
-	<string name="type.boundary.administrative.3">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.4">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.5">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.6">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.7">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.8">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.9">İnzibati sərhəd</string>
-	<string name="type.boundary.administrative.city">Şəhər limiti</string>
-	<string name="type.boundary.administrative.country">Milli sərhəd</string>
-	<string name="type.boundary.administrative.county">Rayon sərhədi</string>
-	<string name="type.boundary.administrative.municipality">Bələdiyyə sərhədi</string>
-	<string name="type.boundary.administrative.nation">Milli sərhəd</string>
-	<string name="type.boundary.administrative.region">Regional sərhəd</string>
-	<string name="type.boundary.administrative.state">Dövlət sərhədi</string>
-	<string name="type.boundary.administrative.suburb">Qonşuluq sərhədi</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.3">Regional sərhəd</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.4">Regional sərhəd</string>
 	<string name="type.boundary.national_park">Milli park</string>
 	<string name="type.boundary.aboriginal_lands">Yerli torpaqlar</string>
 	<string name="type.boundary.protected_area">Qorunan ərazi</string>
@@ -1462,7 +1454,10 @@
 	<string name="type.military.bunker">Sığınacaq</string>
 	<string name="type.mountain_pass">Boğaz</string>
 	<string name="type.natural">Təbiət</string>
+	<!-- A rocky land cover. -->
 	<string name="type.natural.bare_rock">Çılpaq qaya</string>
+	<!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
+	<string name="type.natural.shingle">Şingle</string>
 	<string name="type.natural.bay">Bay</string>
 	<string name="type.natural.beach">Çimərlik</string>
 	<string name="type.natural.beach.sand">Qum çimərliyi</string>
@@ -2012,7 +2007,7 @@
 	<string name="type.tourism.artwork.sculpture">Heykəl</string>
 	<string name="type.tourism.artwork.statue">Heykəl</string>
 	<string name="type.tourism.attraction">Attraksionlar</string>
-	<string name="type.tourism.attraction.animal">Zoopark</string>
+	<string name="type.attraction.animal">Heyvan mühafizəsi</string>
 	<string name="type.tourism.attraction.specified">Attraksionlar</string>
 	<string name="type.tourism.camp_site">Düşərgə sahəsi</string>
 	<string name="type.tourism.caravan_site">Treyler parkı</string>

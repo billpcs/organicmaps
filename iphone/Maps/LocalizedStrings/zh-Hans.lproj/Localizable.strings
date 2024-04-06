@@ -629,6 +629,8 @@
 
 "login" = "登录";
 
+"login_osm" = "登录 OpenStreetMap";
+
 "forgot_password" = "忘记密码";
 
 "osm_account" = "OSM账户";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "糟糕，出错了。请尝试重新登录。";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "请登录OpenStreetMap，自动上传您编辑的所有地图。了解更多信息";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "请点击这里";
+
 "core_entrance" = "入口";
 
 "error_enter_correct_name" = "请输入正确的名称";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "按距离排序";
 
 "sort_date" = "按日期排序";
+
+"sort_name" = "按名称排序";
 
 "week_ago_sorttype" = "一周前";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "行政区域界线";
 
-"type.boundary.administrative.10" = "10级行政区域界线";
-
-"type.boundary.administrative.11" = "11级行政区域界线";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "国家行政区域界线";
 
-"type.boundary.administrative.3" = "3级行政区域界线";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "1区域行政区域界线";
 
-"type.boundary.administrative.4" = "4级行政区域界线";
-
-"type.boundary.administrative.5" = "5级行政区域界线";
-
-"type.boundary.administrative.6" = "6级行政区域界线";
-
-"type.boundary.administrative.7" = "7级行政区域界线";
-
-"type.boundary.administrative.8" = "8级行政区域界线";
-
-"type.boundary.administrative.9" = "9级行政区域界线";
-
-"type.boundary.administrative.city" = "城市行政区域界线";
-
-"type.boundary.administrative.country" = "国家行政区域界线";
-
-"type.boundary.administrative.county" = "县行政区域界线";
-
-"type.boundary.administrative.municipality" = "自治市行政区域界线";
-
-"type.boundary.administrative.nation" = "国家行政区域界线";
-
-"type.boundary.administrative.region" = "1区域行政区域界线";
-
-"type.boundary.administrative.state" = "州省行政区域界线";
-
-"type.boundary.administrative.suburb" = "市郊行政区域界线";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "1区域行政区域界线";
 
 "type.boundary.national_park" = "国家公园";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "自然";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "岩石";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "鹅卵石";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "石质碎石";
 
 "type.natural.bay" = "海湾";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "景点";
 
-"type.tourism.attraction.animal" = "景点";
+"type.attraction.animal" = "动物围栏";
 
 "type.tourism.attraction.specified" = "景点";
 

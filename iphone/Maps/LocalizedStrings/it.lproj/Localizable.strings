@@ -629,6 +629,8 @@
 
 "login" = "Accedi";
 
+"login_osm" = "Accedi a OpenStreetMap";
+
 "forgot_password" = "Hai dimenticato la password?";
 
 "osm_account" = "Account OSM";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "Si è verificato un errore. Prova a ripetere l'accesso più tardi.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Accedi a OpenStreetMap per caricare automaticamente tutte le tue modifiche alla mappa. Per saperne di più";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "qui";
+
 "core_entrance" = "Ingresso";
 
 "error_enter_correct_name" = "Inserisci un nome corretto";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Ordina per distanza";
 
 "sort_date" = "Ordina per data";
+
+"sort_name" = "Ordina per nome";
 
 "week_ago_sorttype" = "Una settimana fa";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Confine amministrativo";
 
-"type.boundary.administrative.10" = "Confine amministrativo";
-
-"type.boundary.administrative.11" = "Confine amministrativo";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "Confine nazionale";
 
-"type.boundary.administrative.3" = "Confine amministrativo";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Confine regionale";
 
-"type.boundary.administrative.4" = "Confine amministrativo";
-
-"type.boundary.administrative.5" = "Confine amministrativo";
-
-"type.boundary.administrative.6" = "Confine amministrativo";
-
-"type.boundary.administrative.7" = "Confine amministrativo";
-
-"type.boundary.administrative.8" = "Confine amministrativo";
-
-"type.boundary.administrative.9" = "Confine amministrativo";
-
-"type.boundary.administrative.city" = "Confine cittadino";
-
-"type.boundary.administrative.country" = "Confine nazionale";
-
-"type.boundary.administrative.county" = "County Boundary";
-
-"type.boundary.administrative.municipality" = "Confini municipale";
-
-"type.boundary.administrative.nation" = "Confine nazionale";
-
-"type.boundary.administrative.region" = "Confine regionale";
-
-"type.boundary.administrative.state" = "Confine statale";
-
-"type.boundary.administrative.suburb" = "Suburb Boundary";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Confine regionale";
 
 "type.boundary.national_park" = "Parco nazionale";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Natura";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Roccia nuda";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Ciottoli";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Ghiaia pietrosa";
 
 "type.natural.bay" = "Baia";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Attrattiva";
 
-"type.tourism.attraction.animal" = "Recinto";
+"type.attraction.animal" = "Recinto per animali";
 
 "type.tourism.attraction.specified" = "Attrattiva";
 

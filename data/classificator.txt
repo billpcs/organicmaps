@@ -195,6 +195,9 @@ world  +
         trunk  -
         unclassified  -
         {}
+    attraction  +
+        animal  -
+        {}
     barrier  +
         block  -
         bollard  -
@@ -220,24 +223,9 @@ world  +
     boundary  +
         aboriginal_lands  -
         administrative  +
-            10  -
-            11  -
             2  -
             3  -
             4  -
-            5  -
-            6  -
-            7  -
-            8  -
-            9  -
-            city  -
-            country  -
-            county  -
-            municipality  -
-            nation  -
-            region  -
-            state  -
-            suburb  -
             {}
         national_park  -
         protected_area  +
@@ -755,7 +743,9 @@ world  +
         peak  -
         rock  -
         saddle  -
+        scree  -
         scrub  -
+        shingle  -
         spring  -
         strait  -
         tree_row  -
@@ -1387,10 +1377,7 @@ world  +
             sculpture  -
             statue  -
             {}
-        attraction  +
-            animal  -
-            specified  -
-            {}
+        attraction  -
         camp_site  -
         caravan_site  -
         chalet  -

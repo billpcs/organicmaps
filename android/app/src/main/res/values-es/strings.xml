@@ -581,6 +581,8 @@
 	<string name="routing_add_finish_point">Buscar un destino para el plan de ruta</string>
 	<string name="placepage_remove_stop">Eliminar</string>
 	<string name="placepage_add_stop">Añadir parada</string>
+	<!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
+	<string name="alert_reauth_message">Inicia sesión en OpenStreetMap para cargar automáticamente todas tus ediciones de mapas. Más información <a href="https://github.com/organicmaps/organicmaps/issues/6144">aquí</a>.</string>
 	<string name="dialog_error_storage_title">Problema de acceso al almacenamiento</string>
 	<string name="dialog_error_storage_message">El almacenamiento externo no está disponible; puede que se haya quitado o dañado la tarjeta SD, o el sistema de archivos solo permite lectura. Por favor, compruébelo ó escríbanos a support\@organicmaps.app</string>
 	<string name="setting_emulate_bad_storage">Emular almacenamiento dañado</string>
@@ -693,6 +695,8 @@
 	<string name="by_distance">Por distancia</string>
 	<!-- Android -->
 	<string name="by_date">Por fecha</string>
+	<!-- Android -->
+	<string name="by_name">Por nombre</string>
 	<string name="week_ago_sorttype">Hace una semana</string>
 	<string name="month_ago_sorttype">Hace un mes</string>
 	<string name="moremonth_ago_sorttype">Hace más de un mes</string>
@@ -1006,24 +1010,12 @@
 	<string name="type.barrier.wall">Muro</string>
 	<string name="type.boundary">Frontera</string>
 	<string name="type.boundary.administrative">Frontera administrativa</string>
-	<string name="type.boundary.administrative.10">Frontera administrativa</string>
-	<string name="type.boundary.administrative.11">Frontera administrativa</string>
+	<!-- Borders between countries. -->
 	<string name="type.boundary.administrative.2">Frontera de país</string>
-	<string name="type.boundary.administrative.3">Frontera administrativa</string>
-	<string name="type.boundary.administrative.4">Frontera administrativa</string>
-	<string name="type.boundary.administrative.5">Frontera administrativa</string>
-	<string name="type.boundary.administrative.6">Frontera administrativa</string>
-	<string name="type.boundary.administrative.7">Frontera administrativa</string>
-	<string name="type.boundary.administrative.8">Frontera administrativa</string>
-	<string name="type.boundary.administrative.9">Frontera administrativa</string>
-	<string name="type.boundary.administrative.city">Frontera de ciudad</string>
-	<string name="type.boundary.administrative.country">Frontera de país</string>
-	<string name="type.boundary.administrative.county">Frontera de condado</string>
-	<string name="type.boundary.administrative.municipality">Frontera de municipio</string>
-	<string name="type.boundary.administrative.nation">Frontera de nación</string>
-	<string name="type.boundary.administrative.region">Frontera de región</string>
-	<string name="type.boundary.administrative.state">Frontera de estado</string>
-	<string name="type.boundary.administrative.suburb">Frontera de suburbio</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.3">Frontera de región</string>
+	<!-- Country's primary subdivision borders, e.g. between regions, provinces, states.. -->
+	<string name="type.boundary.administrative.4">Frontera de región</string>
 	<string name="type.boundary.national_park">Parque nacional</string>
 	<string name="type.boundary.aboriginal_lands">Tierras indígenas</string>
 	<string name="type.boundary.protected_area">Área protegida</string>
@@ -1501,7 +1493,12 @@
 	<string name="type.military.bunker">Búnker</string>
 	<string name="type.mountain_pass">Puerto de montaña</string>
 	<string name="type.natural">Naturaleza</string>
+	<!-- A rocky land cover. -->
 	<string name="type.natural.bare_rock">Roca desnuda</string>
+	<!-- A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. -->
+	<string name="type.natural.shingle">Guijarros</string>
+	<!-- A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. -->
+	<string name="type.natural.scree">Pedregal</string>
 	<string name="type.natural.bay">Bahía</string>
 	<string name="type.natural.beach">Playa</string>
 	<string name="type.natural.beach.sand">Playa de arena</string>
@@ -2041,7 +2038,7 @@
 	<string name="type.tourism.artwork.sculpture">Obras de arte</string>
 	<string name="type.tourism.artwork.statue">Obras de arte</string>
 	<string name="type.tourism.attraction">Atracción turística</string>
-	<string name="type.tourism.attraction.animal">Recinto de animales</string>
+	<string name="type.attraction.animal">Recinto de animales</string>
 	<string name="type.tourism.attraction.specified">Atracción turística</string>
 	<string name="type.tourism.camp_site">Camping</string>
 	<string name="type.tourism.caravan_site">Zona de caravanas</string>

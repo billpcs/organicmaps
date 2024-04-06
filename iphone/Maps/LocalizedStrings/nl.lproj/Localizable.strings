@@ -629,6 +629,8 @@
 
 "login" = "Log in";
 
+"login_osm" = "Inloggen op OpenStreetMap";
+
 "forgot_password" = "Wachtwoord vergeten?";
 
 "osm_account" = "OSM-account";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "Oeps, er is een fout opgetreden. Probeer opnieuw aan te melden.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Log in op OpenStreetMap om al je kaartbewerkingen automatisch te uploaden. Meer informatie";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "hier";
+
 "core_entrance" = "Ingang";
 
 "error_enter_correct_name" = "Voer een juiste naam in";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Sorteer op afstand";
 
 "sort_date" = "Sorteer op datum";
+
+"sort_name" = "Sorteren op naam";
 
 "week_ago_sorttype" = "Een week geleden";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Administratieve grens";
 
-"type.boundary.administrative.10" = "Administratieve grens";
+/* Borders between countries. */
+"type.boundary.administrative.2" = "Natiegrens";
 
-"type.boundary.administrative.11" = "Administratieve grens";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Regiogrens";
 
-"type.boundary.administrative.2" = "Landsgrens";
-
-"type.boundary.administrative.3" = "Administratieve grens";
-
-"type.boundary.administrative.4" = "Administratieve grens";
-
-"type.boundary.administrative.5" = "Administratieve grens";
-
-"type.boundary.administrative.6" = "Administratieve grens";
-
-"type.boundary.administrative.7" = "Administratieve grens";
-
-"type.boundary.administrative.8" = "Administratieve grens";
-
-"type.boundary.administrative.9" = "Administratieve grens";
-
-"type.boundary.administrative.city" = "Stadsgrens";
-
-"type.boundary.administrative.country" = "Landsgrens";
-
-"type.boundary.administrative.county" = "Provinciegrens";
-
-"type.boundary.administrative.municipality" = "Gemeentegrens";
-
-"type.boundary.administrative.nation" = "Natiegrens";
-
-"type.boundary.administrative.region" = "Regiogrens";
-
-"type.boundary.administrative.state" = "Staatsgrens";
-
-"type.boundary.administrative.suburb" = "Buitenwijkgrens";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Regiogrens";
 
 "type.boundary.national_park" = "Nationaal park";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Natuur";
 
-"type.natural.bare_rock" = "Kale steen";
+/* A rocky land cover. */
+"type.natural.bare_rock" = "Kale rots";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Kiezels";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Puinhelling";
 
 "type.natural.bay" = "Baai";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Attractie";
 
-"type.tourism.attraction.animal" = "Dierenverblijf";
+"type.attraction.animal" = "Dierenverblijf";
 
 "type.tourism.attraction.specified" = "Attractie";
 

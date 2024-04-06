@@ -629,6 +629,8 @@
 
 "login" = "Saioa hasi";
 
+"login_osm" = "Hasi saioa OpenStreetMap-en";
+
 "forgot_password" = "Pasahitza ahaztu duzu?";
 
 "osm_account" = "OSM kontua";
@@ -931,6 +933,12 @@
 
 "profile_authorization_error" = "Errore bat gertatu da. Saiatu berriro saioa hasten.";
 
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
+"alert_reauth_message_ios" = "Hasi saioa OpenStreetMap-en zure mapen aldaketa guztiak automatikoki kargatzeko. Lortu informazio gehiago";
+
+/* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
+"alert_reauth_link_text_ios" = "hemen";
+
 "core_entrance" = "Sarrera";
 
 "error_enter_correct_name" = "Mesedez, idatzi baliozko izen bat";
@@ -1126,6 +1134,8 @@
 "sort_distance" = "Ordenatu distantziaren arabera";
 
 "sort_date" = "Ordenatu dataren arabera";
+
+"sort_name" = "Ordenatu izenaren arabera";
 
 "week_ago_sorttype" = "Duela aste bat";
 
@@ -1664,41 +1674,14 @@
 
 "type.boundary.administrative" = "Muga administratiboa";
 
-"type.boundary.administrative.10" = "Muga administratiboa";
-
-"type.boundary.administrative.11" = "Muga administratiboa";
-
+/* Borders between countries. */
 "type.boundary.administrative.2" = "Herrialdeko muga";
 
-"type.boundary.administrative.3" = "Muga administratiboa";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.3" = "Eskualdeko muga";
 
-"type.boundary.administrative.4" = "Muga administratiboa";
-
-"type.boundary.administrative.5" = "Muga administratiboa";
-
-"type.boundary.administrative.6" = "Muga administratiboa";
-
-"type.boundary.administrative.7" = "Muga administratiboa";
-
-"type.boundary.administrative.8" = "Muga administratiboa";
-
-"type.boundary.administrative.9" = "Muga administratiboa";
-
-"type.boundary.administrative.city" = "Hiriko muga";
-
-"type.boundary.administrative.country" = "Herrialdeko muga";
-
-"type.boundary.administrative.county" = "Eskualdeko muga";
-
-"type.boundary.administrative.municipality" = "Udalerriko muga";
-
-"type.boundary.administrative.nation" = "Nazio muga";
-
-"type.boundary.administrative.region" = "Eskualdeko muga";
-
-"type.boundary.administrative.state" = "Estatuko muga";
-
-"type.boundary.administrative.suburb" = "Auzoko muga";
+/* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
+"type.boundary.administrative.4" = "Eskualdeko muga";
 
 "type.boundary.national_park" = "Parke Nazionala";
 
@@ -2635,7 +2618,14 @@
 
 "type.natural" = "Natura";
 
+/* A rocky land cover. */
 "type.natural.bare_rock" = "Harkaitz biluzi";
+
+/* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
+"type.natural.shingle" = "Harri koskor";
+
+/* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
+"type.natural.scree" = "Srika";
 
 "type.natural.bay" = "Badia";
 
@@ -3748,7 +3738,7 @@
 
 "type.tourism.attraction" = "Erakarpen turistikoa";
 
-"type.tourism.attraction.animal" = "Erakarpen turistikoa";
+"type.attraction.animal" = "Animalien itxitura";
 
 "type.tourism.attraction.specified" = "Erakarpen turistikoa";
 
